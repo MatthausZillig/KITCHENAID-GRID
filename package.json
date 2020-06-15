@@ -1,0 +1,18 @@
+{
+  "name": "grid",
+  "version": "1.0.0",
+  "description": "Grid system built with css grid, fully responsive",
+  "main": "index.js",
+  "author": "Matthaus Zillig - devmatthauszillig@gmail.com",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "grid",
+    "css",
+    "react",
+    "styled-components"
+  ],
+  "dependencies": {
+    "styled-components": "^5.1.1"
+  }
+}
