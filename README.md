@@ -1,4 +1,4 @@
-## Kitchenaid Grid
+## React Stray Grid
 > Sistema de grid contruído com styled components e css grid.
 
 
