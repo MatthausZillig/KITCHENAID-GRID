@@ -1,5 +1,5 @@
 {
-	"name": "grid",
+	"name": "react-stray-grid",
 	"version": "1.0.0",
 	"description": "Grid system built with css grid and styled-components, fully responsive",
 	"main": "src/index.js",
