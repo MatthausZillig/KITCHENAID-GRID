@@ -1,6 +1,5 @@
-'use strict'
+'use strict';
 
-import { KitGrid } from './Grid/KitGrid'
-import { KitItem } from './Item/KitItem'
+import { Grid, Item } from './Grid/Grid';
 
-export { KitGrid, KitItem }
+export { Grid, Item };

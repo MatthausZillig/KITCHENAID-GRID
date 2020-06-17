@@ -1,18 +1,26 @@
 {
-  "name": "grid",
-  "version": "1.0.0",
-  "description": "Grid system built with css grid, fully responsive",
-  "main": "index.js",
-  "author": "Matthaus Zillig - devmatthauszillig@gmail.com",
-  "license": "MIT",
-  "type": "module",
-  "keywords": [
-    "grid",
-    "css",
-    "react",
-    "styled-components"
-  ],
-  "dependencies": {
-    "styled-components": "^5.1.1"
-  }
+	"name": "grid",
+	"version": "1.0.0",
+	"description": "Grid system built with css grid and styled-components, fully responsive",
+	"main": "src/index.js",
+	"author": {
+		"name": "Matthaus Zillig",
+		"email": "devmatthauszillig@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MatthausZillig/stray-grid"
+	},
+	"license": "MIT",
+	"type": "module",
+	"keywords": [
+		"grid",
+		"css",
+		"react",
+		"styled-components",
+		"flexbox"
+	],
+	"dependencies": {
+		"styled-components": "^5.1.1"
+	}
 }
