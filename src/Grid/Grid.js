@@ -1,11 +1,11 @@
-import styled from 'styled-components';
-import { device } from './Breakpoints';
+const styled = require('styled-components');
+const device = require('./Breakpoints');
 
 const formatAreas = (areas) => areas.map((area) => `"${area}"`).join(' ');
 const formatMobileAreas = (mobileAreas) =>
 	mobileAreas.map((mobileArea) => `"${mobileArea}"`).join(' ');
 
-export const Item = styled.div`
+const Item = styled.div`
 	display: flex;
 	flex-direction: ${({ flexDirection }) => flexDirection};
 	flex: ${({ flex }) => flex};
@@ -17,7 +17,7 @@ export const Item = styled.div`
 	align-self: ${(props) => props.alignSelf};
 `;
 
-export const Grid = styled.section`
+const Grid = styled.section`
 	display: grid;
 	grid-template-columns: ${({ columns }) => columns};
 	grid-template-rows: ${({ rows }) => rows};
@@ -49,3 +49,8 @@ export const Grid = styled.section`
 		margin-bottom: 16px;
 	}
 `;
+
+module.exports = {
+	Grid,
+	Item,
+};

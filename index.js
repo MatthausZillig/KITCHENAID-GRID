@@ -1,5 +1,9 @@
 'use strict';
 
-import { Grid, Item } from './src/Grid/Grid';
+const Grid = require('./src/Grid/Grid');
+const Item = require('./src/Grid/Grid');
 
-export { Grid, Item };
+module.exports{
+  Grid, 
+  Item
+}
