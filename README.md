@@ -4,7 +4,22 @@
 
 Documentação em progresso...
 
-## :rocket: tecnologias
+# Installation
+
+```
+
+import { Grid, Item } from 'stray-grid'
+
+<Grid>
+  <Item>
+  </Item>
+  ....
+  <Item></Item>
+</Grid>
+
+```
+
+## :rocket: Technologies
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 

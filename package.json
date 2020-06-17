@@ -1,8 +1,8 @@
 {
-	"name": "react-stray-grid",
+	"name": "stray-grid",
 	"version": "1.0.0",
 	"description": "Grid system built with css grid and styled-components, fully responsive",
-	"main": "src/index.js",
+	"main": "index.js",
 	"author": {
 		"name": "Matthaus Zillig",
 		"email": "devmatthauszillig@gmail.com"

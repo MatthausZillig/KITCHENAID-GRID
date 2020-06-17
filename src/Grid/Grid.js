@@ -23,9 +23,11 @@ export const Grid = styled.section`
 	grid-template-rows: ${({ rows }) => rows};
 	${({ areas }) => areas && `grid-template-areas: ${formatAreas(areas)}`};
 	grid-gap: ${({ space }) => space};
-	padding-left: 64px;
-	padding-right: 64px;
-	margin-bottom: 24px;
+	padding-left: ${({ paddingLeft }) => (paddingLeft ? paddingLeft : '64px')};
+	padding-right: ${({ paddingRight }) =>
+		paddingRight ? paddingRight : '64px'};
+	margin-bottom: ${({ marginBottom }) =>
+		marginBottom ? marginBottom : '24px'};
 	${({ first }) => first && `margin-top: 24px`};
 	${({ justifyContent }) =>
 		justifyContent && `justify-content: ${justifyContent}`};
