@@ -1,20 +1,20 @@
 ## React Stray Grid
+
 > Sistema de grid contruído com styled components e css grid.
 
+Documentação em progresso...
 
 ## :rocket: tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Node.js](https://nodejs.org/en/)
-- [styled-components](https://styled-components.com/)
-- [Css Grid](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
-
+-   [Node.js](https://nodejs.org/en/)
+-   [styled-components](https://styled-components.com/)
+-   [Css Grid](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 
 ## Release History
 
-* 0.1.0
- 
+-   0.1.0
 
 ## Meta
 
@@ -29,5 +29,3 @@ Matthaus Zillig – [Linkedin](https://www.linkedin.com/in/matthaus-zillig/)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
-
-

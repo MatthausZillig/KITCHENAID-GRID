@@ -20,6 +20,9 @@
 		"styled-components",
 		"flexbox"
 	],
+	"bug": {
+		"url": "https://github.com/MatthausZillig/stray-grid/issues"
+	},
 	"dependencies": {
 		"styled-components": "^5.1.1"
 	}
